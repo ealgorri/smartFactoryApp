@@ -1,0 +1,16 @@
+<Grid>
+     <Image Source="avares://smartFactoryApp/Assets/factory_plan.png"
+           Stretch="None"/>
+ 
+    <Canvas x:Name="canvasFactory" HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="900" >
+      
+        <Grid Height="95" Width="160" Canvas.Left="730" Canvas.Top="500">
+            <Button x:Name="UpButton" Content="Up" HorizontalAlignment="Center" VerticalAlignment="Top" Width="40" FontSize="16" />
+            <Button x:Name="DownButton" Content="Down" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="60" FontSize="16" />
+            <Button x:Name="LeftButton" Content="Left" HorizontalAlignment="Left" VerticalAlignment="Center" Width="50" FontSize="16"  />
+            <Button x:Name="RightButton" Content="Right" HorizontalAlignment="Right" VerticalAlignment="Center" Width="55" FontSize="16"  />
+        </Grid>
+        
+    </Canvas>
+  
+</Grid>
